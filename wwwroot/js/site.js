@@ -10,7 +10,7 @@
         var item = this;
         var val = $(item).find('a').attr('href');
 		val = val.replace('.\\','');
-        if (path.indexOf(val) != -1) {
+        if (path.toLocaleLowerCase().indexOf(val.toLocaleLowerCase()) != -1) {
 			$(item).find('a').removeClass('btn btn-secondary');
             $(item).find('a').addClass('btn btn-primary');
 			return;
@@ -26,9 +26,9 @@ function showNextImage() {
         var namesrc = decodeURI(name);
         var src = model[i].imageURL;
 		var fnsrc = namesrc.substring(namesrc.lastIndexOf('/')+1).replace('.wwwrootimages','');
-		var fsrc = src.substring(src.lastIndexOf('/')+1);
+		var fsrc = src.substring(src.lastIndexOf('/')+1).replace('.wwwrootimages','');
 		
-        if (fnsrc.indexOf(fsrc) != -1) {
+        if (fnsrc.toLocaleLowerCase().indexOf(fsrc.toLocaleLowerCase()) != -1) {
             current = i;
             var isrc = getNextImage(len);
             $('#zoomImg').prop('src', isrc);
