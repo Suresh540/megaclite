@@ -1,5 +1,5 @@
 ﻿function fnLoadImage() {
-    var path = window.location.href;
+    var path = window.location.href+".html";
 	$('.nav-item').each(function () {
 		var item = this;
 		$(item).find('a').removeClass('btn btn-primary');
