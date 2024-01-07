@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MegaClite</title>
+    <link rel="stylesheet" href=".\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <link rel="stylesheet" href=".\wwwroot\css\site.css" />
+    <script src=".\wwwroot\lib\jquery\dist\jquery.min.js"></script>
+    <script src=".\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+    <script src=".\wwwroot\js\site.js"></script>
+    <script src=".\wwwroot\js\baguettebox.min.js"></script>
+</head>
+<body style="overflow-y:hidden" id="bdy">
+    <header b-dje8g87w6z>
+        <nav b-dje8g87w6z class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-dje8g87w6z class="container">
+                <a class="navbar-brand" style="color:green;font-style:italic" href=".\Start.html"><b b-dje8g87w6z>MegaClite</b></a>
+                <button b-dje8g87w6z class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-dje8g87w6z class="navbar-toggler-icon"></span>
+                </button>
+                <div b-dje8g87w6z class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-dje8g87w6z class="navbar-nav flex-grow-1">
+                        <li b-dje8g87w6z class="nav-item p-1">
+                            <a b-dje8g87w6z class="btn btn-primary" href=".\ORTHO.html"><b b-dje8g87w6z>ORTHO</b></a>
+                        </li>
+                        <li b-dje8g87w6z class="nav-item p-1">
+                            <a b-dje8g87w6z class="btn btn-secondary" href=".\GYN.html"><b b-dje8g87w6z style="color:white">GYN</b></a>
+                        </li>
+                        <li b-dje8g87w6z class="nav-item p-1">
+                            <a b-dje8g87w6z class="btn btn-secondary" href=".\ENT.html"><b b-dje8g87w6z style="color:white">ENT</b></a>
+                        </li>
+                        <li b-dje8g87w6z class="nav-item p-1">
+                            <a b-dje8g87w6z class="btn btn-secondary" href=".\CP.html"><b b-dje8g87w6z style="color:white">CP</b></a>
+                        </li>
+                        <li b-dje8g87w6z class="nav-item p-1">
+                            <a b-dje8g87w6z class="btn btn-secondary" href=".\PAED.html"><b b-dje8g87w6z style="color:white">PAED</b></a>
+                        </li>
+                        <li b-dje8g87w6z class="nav-item p-1">
+                            <a b-dje8g87w6z class="btn btn-secondary" href=".\SURG.html"><b b-dje8g87w6z style="color:white">SURG</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-dje8g87w6z class="content" style="height:85vh;overflow-y:auto">
+        <main b-dje8g87w6z role="main">
+            <style>
+    .modal-open {
+        overflow: hidden;
+    }
+</style>
+
+<button id="openBtn" style="display:none" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#imageViewer">
+    Launch demo modal
+</button>
+
+<div class="container-fluid">
+    <div class="row gallery">
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Bifoclite CP.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\BIFOCLITE _ FERROCLITE.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Clite .jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Doloclite AQ.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Doloclite SP.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Droticlite M.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Etoclite 1.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Etoclite 2.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\MC TOTAL.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Mediclite _ Topglipt.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Megatel .jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\MONTI.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Monticlite B.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Moxiclite LB.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\MPC UTI NF UTI.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Nuroclite LC.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Nuroclite.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\QZOL OZ _ QZOL UTI.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\QZOR OZ CP.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Rabiclite 1.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Rabiclite 2.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\Sucraclite o.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\SUN D3 MAX ortho _ cp.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 p-2" style="background-color:lightgray">
+                <a onclick="zoomImage(this)" style="cursor:pointer">
+                    <img class="img-fluid" src=".\wwwroot\images\CP\SunD3 max.jpeg" style="cursor:pointer;height:30vh;width:30vw">
+                </a>
+            </div>
+    </div>
+</div>
+
+<!-- Zoom -->
+<div style="overflow-y:hidden" class="modal fade" id="imageViewer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick="showNextImage()" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="height:80vh;overflow-y:auto">
+                <img id="zoomImg" style="width:98%;height:98%" />
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var model = [];
+    baguetteBox.run(".gallery", {
+        animation: "slideIn"
+    });
+
+    function zoomImage(ctrl) {
+        model = [{"folderName":"CP","imageURL":".\wwwroot\images\CP\Bifoclite CP.jpeg","imageGroupName":"B","imageName":"Bifoclite CP"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\BIFOCLITE _ FERROCLITE.jpeg","imageGroupName":"B","imageName":"BIFOCLITE _ FERROCLITE"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Clite .jpeg","imageGroupName":"C","imageName":"Clite "},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Doloclite AQ.jpeg","imageGroupName":"D","imageName":"Doloclite AQ"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Doloclite SP.jpeg","imageGroupName":"D","imageName":"Doloclite SP"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Droticlite M.jpeg","imageGroupName":"D","imageName":"Droticlite M"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Etoclite 1.jpeg","imageGroupName":"E","imageName":"Etoclite 1"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Etoclite 2.jpeg","imageGroupName":"E","imageName":"Etoclite 2"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\MC TOTAL.jpeg","imageGroupName":"M","imageName":"MC TOTAL"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Mediclite _ Topglipt.jpeg","imageGroupName":"M","imageName":"Mediclite _ Topglipt"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Megatel .jpeg","imageGroupName":"M","imageName":"Megatel "},{"folderName":"CP","imageURL":".\wwwroot\images\CP\MONTI.jpeg","imageGroupName":"M","imageName":"MONTI"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Monticlite B.jpeg","imageGroupName":"M","imageName":"Monticlite B"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Moxiclite LB.jpeg","imageGroupName":"M","imageName":"Moxiclite LB"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\MPC UTI NF UTI.jpeg","imageGroupName":"M","imageName":"MPC UTI NF UTI"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Nuroclite LC.jpeg","imageGroupName":"N","imageName":"Nuroclite LC"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Nuroclite.jpeg","imageGroupName":"N","imageName":"Nuroclite"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\QZOL OZ _ QZOL UTI.jpeg","imageGroupName":"Q","imageName":"QZOL OZ _ QZOL UTI"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\QZOR OZ CP.jpeg","imageGroupName":"Q","imageName":"QZOR OZ CP"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Rabiclite 1.jpeg","imageGroupName":"R","imageName":"Rabiclite 1"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Rabiclite 2.jpeg","imageGroupName":"R","imageName":"Rabiclite 2"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\Sucraclite o.jpeg","imageGroupName":"S","imageName":"Sucraclite o"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\SUN D3 MAX ortho _ cp.jpeg","imageGroupName":"S","imageName":"SUN D3 MAX ortho _ cp"},{"folderName":"CP","imageURL":".\wwwroot\images\CP\SunD3 max.jpeg","imageGroupName":"S","imageName":"SunD3 max"}];
+        $('#openBtn').trigger('click');
+        var src = $(ctrl).children('img').attr('src');
+        $('#zoomImg').prop('src', src);
+    }
+    $('#close-button').trigger('click');
+
+    $("#imageViewer").on("hidden.bs.modal", function () {
+        $('#bdy').css('overflow-y', 'hidden');
+    });
+
+</script>
+
+        </main>
+        <footer b-dje8g87w6z>
+            <div b-dje8g87w6z class="container">
+                &copy; 2024 - MegaClite - <a href="">Privacy</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+<script>
+    setTimeout(function () {
+        fnLoadImage();
+    }, 500);
+</script>
