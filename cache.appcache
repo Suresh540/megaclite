@@ -1,0 +1,20 @@
+CACHE MANIFEST 
+CACHE:
+/CP.html
+/ENT.html
+/GYN.html
+/ORTHO.html
+/PAED.html
+/Start.html
+/SURG.html
+/wwwroot/css/bootstrap.min.css
+/wwwroot/css/site.css
+/wwwroot/images/CP/*.*
+/wwwroot/images/ENT/*.*
+/wwwroot/images/GYN/*.*
+/wwwroot/images/ORTHO/*.*
+/wwwroot/images/PAED/*.*
+/wwwroot/images/SURG/*.*
+/wwwroot/js/*.*
+/wwwroot/lib/*.*
+/wwwroot/favicon.ico
