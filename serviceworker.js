@@ -120,7 +120,7 @@ self.addEventListener("install", function (e) {
   e.waitUntil(
     caches.open(cacheName).then(function (cache) {
       return Promise.all(
-        fileNamesToSaveInCache.map(function (url) {
+        filesToCache.map(function (url) {
           return cache.add(url).catch(function (reason) {
             return console.log(url + "failed: " + String(reason));
           })
