@@ -44,3 +44,10 @@ function getNextImage(len) {
     current = current + 1;
     return model[current].imageURL;
 }
+
+window.onload = () => {
+    "use strict";
+    if ("serviceWorker" in navigator && document.URL.split(":")[0] !== "file") {
+      navigator.serviceWorker.register("./serviceworker.js");
+    }
+  }
