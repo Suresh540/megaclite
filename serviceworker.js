@@ -1,7 +1,6 @@
 let cacheName = "core"
 let filesToCache = [
-  "/",
-  "/CP.html",
+"/CP.html",
 "/ENT.html",
 "/GYN.html",
 "/ORTHO.html",
