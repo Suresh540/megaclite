@@ -106,8 +106,7 @@ let filesToCache = [
 "/wwwroot/lib/jquery/dist/jquery.min.js",
 "/wwwroot/js/site.js",
 "/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-"/wwwroot/css/site.css",
-"/wwwroot/favicon.ico",
+"/wwwroot/css/site.css"
 ]
 
 self.addEventListener("install", function(e) {
