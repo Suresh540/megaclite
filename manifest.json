@@ -2,6 +2,6 @@
     "name": "APP",
     "short_name": "App",
     "lang": "en-US",
-    "start_url": "start.html",
+    "start_url": "/Start.html",
     "display": "standalone"
   }
