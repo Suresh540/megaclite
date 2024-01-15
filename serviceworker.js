@@ -17,7 +17,7 @@ let filesToCache = [
   "/wwwroot/css/bootstrap.min.css",
   "/wwwroot/css/site.css",
   "/wwwroot/images/CP/BIFOCLITE _ FERROCLITE.jpeg",
-  "/wwwroot/images/CP/Bifoclite_CP.jpeg",
+  "/wwwroot/images/CP/Bifoclite CP.jpeg",
   "/wwwroot/images/CP/Clite .jpeg",
   "/wwwroot/images/CP/Doloclite AQ.jpeg",
   "/wwwroot/images/CP/Doloclite SP.jpeg",
