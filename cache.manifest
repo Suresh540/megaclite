@@ -1,110 +1,110 @@
 CACHE MANIFEST 
 CACHE:
-/CP.html
-/ENT.html
-/GYN.html
-/ORTHO.html
-/PAED.html
-/Start.html
-/SURG.html
-/wwwroot/css/bootstrap.min.css
-/wwwroot/css/site.css
-/wwwroot/images/CP/BIFOCLITE _ FERROCLITE.jpeg
-/wwwroot/images/CP/Bifoclite_CP.jpeg
-/wwwroot/images/CP/Clite .jpeg
-/wwwroot/images/CP/Doloclite AQ.jpeg
-/wwwroot/images/CP/Doloclite SP.jpeg
-/wwwroot/images/CP/Droticlite M.jpeg
-/wwwroot/images/CP/Etoclite 1.jpeg
-/wwwroot/images/CP/Etoclite 2.jpeg
-/wwwroot/images/CP/MC TOTAL.jpeg
-/wwwroot/images/CP/Mediclite _ Topglipt.jpeg
-/wwwroot/images/CP/Megatel .jpeg
-/wwwroot/images/CP/MONTI.jpeg
-/wwwroot/images/CP/Monticlite B.jpeg
-/wwwroot/images/CP/Moxiclite LB.jpeg
-/wwwroot/images/CP/MPC UTI NF UTI.jpeg
-/wwwroot/images/CP/Nuroclite LC.jpeg
-/wwwroot/images/CP/Nuroclite.jpeg
-/wwwroot/images/CP/QZOL OZ _ QZOL UTI.jpeg
-/wwwroot/images/CP/QZOR OZ CP.jpeg
-/wwwroot/images/CP/Rabiclite 1.jpeg
-/wwwroot/images/CP/Rabiclite 2.jpeg
-/wwwroot/images/CP/Sucraclite o.jpeg
-/wwwroot/images/CP/SUN D3 MAX ortho _ cp.jpeg
-/wwwroot/images/CP/SunD3 max.jpeg
-/wwwroot/images/ENT/Bifoclite GEL.jpeg
-/wwwroot/images/ENT/Candiclite.jpeg
-/wwwroot/images/ENT/Clite .jpeg
-/wwwroot/images/ENT/Doloclite AQ.jpeg
-/wwwroot/images/ENT/Doloclite SP.jpeg
-/wwwroot/images/ENT/MC TOTAL.jpeg
-/wwwroot/images/ENT/MONTI.jpeg
-/wwwroot/images/ENT/Monticlite B.jpeg
-/wwwroot/images/ENT/Monticlite L susp.jpeg
-/wwwroot/images/ENT/Moxiclite LB.jpeg
-/wwwroot/images/ENT/Nuroclite.jpeg
-/wwwroot/images/ENT/Rabiclite 1.jpeg
-/wwwroot/images/ENT/Rabiclite 2.jpeg
-/wwwroot/images/GYN/BIFOCLITE _ FERROCLITE 3.jpeg
-/wwwroot/images/GYN/BIFOCLITE 1.jpeg
-/wwwroot/images/GYN/BIFOCLITE 2.jpeg
-/wwwroot/images/GYN/Droticlite M.jpeg
-/wwwroot/images/GYN/MC TOTAL.jpeg
-/wwwroot/images/GYN/Menoclite 1.jpeg
-/wwwroot/images/GYN/Menoclite 2.jpeg
-/wwwroot/images/GYN/Menoclite 3.jpeg
-/wwwroot/images/GYN/MPC UTI NF UTI.jpeg
-/wwwroot/images/GYN/MPC uti.jpeg
-/wwwroot/images/GYN/Nuroclite LC.jpeg
-/wwwroot/images/GYN/Nuroclite.jpeg
-/wwwroot/images/GYN/QZOL OZ _ QZOL UTI.jpeg
-/wwwroot/images/GYN/Rabiclite 1.jpeg
-/wwwroot/images/GYN/Rabiclite 2.jpeg
-/wwwroot/images/GYN/Sucraclite o.jpeg
-/wwwroot/images/GYN/SunD3 max.jpeg
-/wwwroot/images/ORTHO/Doloclite AQ.jpeg
-/wwwroot/images/ORTHO/Doloclite SP.jpeg
-/wwwroot/images/ORTHO/Etoclite 1.jpeg
-/wwwroot/images/ORTHO/Etoclite 2.jpeg
-/wwwroot/images/ORTHO/MC TOTAL.jpeg
-/wwwroot/images/ORTHO/Nuroclite CD3.jpeg
-/wwwroot/images/ORTHO/Nuroclite LC.jpeg
-/wwwroot/images/ORTHO/Nuroclite.jpeg
-/wwwroot/images/ORTHO/Rabiclite 1.jpeg
-/wwwroot/images/ORTHO/Rabiclite 2.jpeg
-/wwwroot/images/ORTHO/Sucraclite o.jpeg
-/wwwroot/images/ORTHO/SUN D3 MAX ortho _ cp.jpeg
-/wwwroot/images/ORTHO/Sun D3 max.jpeg
-/wwwroot/images/PAED/Bifoclite GEL.jpeg
-/wwwroot/images/PAED/Candiclite.jpeg
-/wwwroot/images/PAED/Clite .jpeg
-/wwwroot/images/PAED/CLITE LS JUNIOR 1.jpeg
-/wwwroot/images/PAED/CLITE LS JUNIOR 2.jpeg
-/wwwroot/images/PAED/EGUT.jpeg
-/wwwroot/images/PAED/IMOXX.jpeg
-/wwwroot/images/PAED/LZOR.jpeg
-/wwwroot/images/PAED/Mefclite DS.jpeg
-/wwwroot/images/PAED/Mega CMC.jpeg
-/wwwroot/images/PAED/Monticlite L susp.jpeg
-/wwwroot/images/SURG/Doloclite AQ.jpeg
-/wwwroot/images/SURG/Doloclite SP.jpeg
-/wwwroot/images/SURG/Droticlite M.jpeg
-/wwwroot/images/SURG/MC TOTAL.jpeg
-/wwwroot/images/SURG/MPC UTI NF UTI.jpeg
-/wwwroot/images/SURG/Nuroclite CD3.jpeg
-/wwwroot/images/SURG/Nuroclite LC.jpeg
-/wwwroot/images/SURG/Nuroclite.jpeg
-/wwwroot/images/SURG/QZOL OZ _ QZOL UTI.jpeg
-/wwwroot/images/SURG/QZOR OZ CP.jpeg
-/wwwroot/images/SURG/Rabiclite 1.jpeg
-/wwwroot/images/SURG/Rabiclite 2.jpeg
-/wwwroot/images/SURG/SUN D3 MAX ortho _ cp.jpeg
-/wwwroot/images/SURG/SunD3 max.jpeg
-/wwwroot/js/baguetteBox.min.js
-/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
-/wwwroot/lib/jquery/dist/jquery.min.js
-/wwwroot/js/site.js
-/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
-/wwwroot/css/site.css
-/wwwroot/favicon.ico
+CP.html
+ENT.html
+GYN.html
+ORTHO.html
+PAED.html
+Start.html
+SURG.html
+wwwroot/css/bootstrap.min.css
+wwwroot/css/site.css
+wwwroot/images/CP/BIFOCLITE _ FERROCLITE.jpeg
+wwwroot/images/CP/Bifoclite_CP.jpeg
+wwwroot/images/CP/Clite .jpeg
+wwwroot/images/CP/Doloclite AQ.jpeg
+wwwroot/images/CP/Doloclite SP.jpeg
+wwwroot/images/CP/Droticlite M.jpeg
+wwwroot/images/CP/Etoclite 1.jpeg
+wwwroot/images/CP/Etoclite 2.jpeg
+wwwroot/images/CP/MC TOTAL.jpeg
+wwwroot/images/CP/Mediclite _ Topglipt.jpeg
+wwwroot/images/CP/Megatel .jpeg
+wwwroot/images/CP/MONTI.jpeg
+wwwroot/images/CP/Monticlite B.jpeg
+wwwroot/images/CP/Moxiclite LB.jpeg
+wwwroot/images/CP/MPC UTI NF UTI.jpeg
+wwwroot/images/CP/Nuroclite LC.jpeg
+wwwroot/images/CP/Nuroclite.jpeg
+wwwroot/images/CP/QZOL OZ _ QZOL UTI.jpeg
+wwwroot/images/CP/QZOR OZ CP.jpeg
+wwwroot/images/CP/Rabiclite 1.jpeg
+wwwroot/images/CP/Rabiclite 2.jpeg
+wwwroot/images/CP/Sucraclite o.jpeg
+wwwroot/images/CP/SUN D3 MAX ortho _ cp.jpeg
+wwwroot/images/CP/SunD3 max.jpeg
+wwwroot/images/ENT/Bifoclite GEL.jpeg
+wwwroot/images/ENT/Candiclite.jpeg
+wwwroot/images/ENT/Clite .jpeg
+wwwroot/images/ENT/Doloclite AQ.jpeg
+wwwroot/images/ENT/Doloclite SP.jpeg
+wwwroot/images/ENT/MC TOTAL.jpeg
+wwwroot/images/ENT/MONTI.jpeg
+wwwroot/images/ENT/Monticlite B.jpeg
+wwwroot/images/ENT/Monticlite L susp.jpeg
+wwwroot/images/ENT/Moxiclite LB.jpeg
+wwwroot/images/ENT/Nuroclite.jpeg
+wwwroot/images/ENT/Rabiclite 1.jpeg
+wwwroot/images/ENT/Rabiclite 2.jpeg
+wwwroot/images/GYN/BIFOCLITE _ FERROCLITE 3.jpeg
+wwwroot/images/GYN/BIFOCLITE 1.jpeg
+wwwroot/images/GYN/BIFOCLITE 2.jpeg
+wwwroot/images/GYN/Droticlite M.jpeg
+wwwroot/images/GYN/MC TOTAL.jpeg
+wwwroot/images/GYN/Menoclite 1.jpeg
+wwwroot/images/GYN/Menoclite 2.jpeg
+wwwroot/images/GYN/Menoclite 3.jpeg
+wwwroot/images/GYN/MPC UTI NF UTI.jpeg
+wwwroot/images/GYN/MPC uti.jpeg
+wwwroot/images/GYN/Nuroclite LC.jpeg
+wwwroot/images/GYN/Nuroclite.jpeg
+wwwroot/images/GYN/QZOL OZ _ QZOL UTI.jpeg
+wwwroot/images/GYN/Rabiclite 1.jpeg
+wwwroot/images/GYN/Rabiclite 2.jpeg
+wwwroot/images/GYN/Sucraclite o.jpeg
+wwwroot/images/GYN/SunD3 max.jpeg
+wwwroot/images/ORTHO/Doloclite AQ.jpeg
+wwwroot/images/ORTHO/Doloclite SP.jpeg
+wwwroot/images/ORTHO/Etoclite 1.jpeg
+wwwroot/images/ORTHO/Etoclite 2.jpeg
+wwwroot/images/ORTHO/MC TOTAL.jpeg
+wwwroot/images/ORTHO/Nuroclite CD3.jpeg
+wwwroot/images/ORTHO/Nuroclite LC.jpeg
+wwwroot/images/ORTHO/Nuroclite.jpeg
+wwwroot/images/ORTHO/Rabiclite 1.jpeg
+wwwroot/images/ORTHO/Rabiclite 2.jpeg
+wwwroot/images/ORTHO/Sucraclite o.jpeg
+wwwroot/images/ORTHO/SUN D3 MAX ortho _ cp.jpeg
+wwwroot/images/ORTHO/Sun D3 max.jpeg
+wwwroot/images/PAED/Bifoclite GEL.jpeg
+wwwroot/images/PAED/Candiclite.jpeg
+wwwroot/images/PAED/Clite .jpeg
+wwwroot/images/PAED/CLITE LS JUNIOR 1.jpeg
+wwwroot/images/PAED/CLITE LS JUNIOR 2.jpeg
+wwwroot/images/PAED/EGUT.jpeg
+wwwroot/images/PAED/IMOXX.jpeg
+wwwroot/images/PAED/LZOR.jpeg
+wwwroot/images/PAED/Mefclite DS.jpeg
+wwwroot/images/PAED/Mega CMC.jpeg
+wwwroot/images/PAED/Monticlite L susp.jpeg
+wwwroot/images/SURG/Doloclite AQ.jpeg
+wwwroot/images/SURG/Doloclite SP.jpeg
+wwwroot/images/SURG/Droticlite M.jpeg
+wwwroot/images/SURG/MC TOTAL.jpeg
+wwwroot/images/SURG/MPC UTI NF UTI.jpeg
+wwwroot/images/SURG/Nuroclite CD3.jpeg
+wwwroot/images/SURG/Nuroclite LC.jpeg
+wwwroot/images/SURG/Nuroclite.jpeg
+wwwroot/images/SURG/QZOL OZ _ QZOL UTI.jpeg
+wwwroot/images/SURG/QZOR OZ CP.jpeg
+wwwroot/images/SURG/Rabiclite 1.jpeg
+wwwroot/images/SURG/Rabiclite 2.jpeg
+wwwroot/images/SURG/SUN D3 MAX ortho _ cp.jpeg
+wwwroot/images/SURG/SunD3 max.jpeg
+wwwroot/js/baguetteBox.min.js
+wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+wwwroot/lib/jquery/dist/jquery.min.js
+wwwroot/js/site.js
+wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+wwwroot/css/site.css
+wwwroot/favicon.ico
