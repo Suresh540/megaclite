@@ -112,11 +112,7 @@ let filesToCache = [
 self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open(cacheName).then(function(cache) {
-      var promise;
-      for(var item of filesToCache){
-        promise = cache.add(item);
-      }
-      return promise;
+      return cache.addAll(filesToCache);
     })
   )
 })
